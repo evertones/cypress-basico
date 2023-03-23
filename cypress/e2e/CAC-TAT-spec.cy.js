@@ -54,4 +54,14 @@ describe('Central de Atendimento ao Cliente TAT', function () {
         cy
             .get('#product').select(2).should('have.value', 'cursos')
     })
+    it("marca o tipo de atendimento 'Feedback'", () => {
+        cy
+            .get('input[name="atendimento-tat"][value="feedback"]').check().should('be.checked')
+    })
+    it("marca cada tipo de atendimento", () => {
+        cy
+            .get('input[name="atendimento-tat"]').each(($elem) => {
+                cy.wrap($elem).check().should('be.checked')
+            })
+    })
 })
