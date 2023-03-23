@@ -1,7 +1,7 @@
 {
-  "name": "curso-cypress-v2",
+  "name": "cypress-e2e",
   "version": "1.0.0",
-  "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
+  "description": "Tests with Cypress to compare with existing tests implemented using Selenium.",
   "main": "src/index.html",
   "scripts": {
     "cy:open": "cypress open",
@@ -18,9 +18,8 @@
     "Cypress Básico",
     "Escola TAT"
   ],
-  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
-  "license": "MIT",
-  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
+  "author": "everton.schneider@franconnect.com",
+  "homepage": "https://www.franconnect.com",
   "devDependencies": {
     "cypress": "^12.5.1"
   },
