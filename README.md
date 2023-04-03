@@ -20,3 +20,7 @@ Executar um dos comandos abaixo:
 -  `npm test:mobile` para execução em modo `headless` com viewport nas dimensōes que simulam um dispositivo movel.
 -  `npm run cy:open` para execução em modo interativo.
 -  `npm run cy:mobile` para execução em modo interativo com viewport nas dimensōes que simulam um dispositivo movel.
+
+## Integracao Continua
+
+Os testes foram configurados para execucao no Git Actions.
